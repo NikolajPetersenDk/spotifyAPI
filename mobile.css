@@ -1,0 +1,69 @@
+/* CSS for mobile screens */
+
+@media only screen and (max-width: 450px) {
+    main {
+        margin-top: 10%;
+        max-width: 90%;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    
+
+
+    /* /////////////////////////////////////////////////////////// */
+    /* Search */
+    #myDropdown{
+        /* margin: 0; */
+        max-width: 90%;
+    }
+
+    body input{
+        max-width: 100%;
+    }
+
+    .dropdown-content{
+        left: 0;
+    }
+
+
+
+    /* /////////////////////////////////////////////////////////// */
+    /* Utility Classes */
+    .primaryColor{
+        font-size: 70px;
+    }
+    
+    .close{
+        top: 15px;
+        right: 15px;
+    }
+
+
+
+    /* //////////////////////////////////////////////////////// */
+    /* Info box */
+    #infoBox {
+        max-width: 90%;
+        max-height: 90%;
+        overflow: scroll;
+    }
+
+    .artistImg{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+    }
+
+    #songs{
+        padding: 0 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #artistName{
+        text-align: center;
+    }
+}

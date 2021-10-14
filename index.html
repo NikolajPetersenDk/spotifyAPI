@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <title>Spotify API</title>
+</head>
+<body>
+    <main>
+    <h1><span class="primaryColor">Spotify</span> ARTIST SEARCH</h1>
+
+    <div id="search" class="container center mTop60">
+        <div id="myDropdown">
+            <!-- search input -->
+            <input id="artistSearch" type="text" placeholder="Who Would You Like to Search For?">
+
+
+            <div id="dropdownResults" class="dropdown-content hidden">
+                <!-- Search results -->
+            </div>
+        </div>
+    </div>
+    
+    <div id="infoBackground">
+
+    </div>
+
+    <!-- Artist Infobox -->
+    <div id="infoBox">
+        <div class="container">
+            <i id="close" class="fas fa-times close"></i>
+            <h2 id="artistName" class="block">Linkin Park</h2>
+            <hr>
+            <br>
+
+            <div class="cont">
+                <!-- img div -->
+                <div class="inline-block w50 artistImg">
+                    <img id="artistImg" src="/img/bestBandEver.jpg" alt="Artist Photo">
+                </div>
+
+                <!-- Top 10 songs -->
+                <div id="songs" class="inline-block w50">
+                    <h3>Most Popular Songs:</h3>
+                    <br>
+                    <ol id="topSongs">
+
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+</main>
+    
+<footer id="footer">
+    <hr>
+    <p>By Nikolaj Petersen  | 
+        <a href="https://www.linkedin.com/in/nikofisk/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+        <a href="https://github.com/NikolajPetersenDk" target="_blank"><i class="fab fa-github"></i></a>  
+        <a href="https://www.nikolajpetersen.dk" target="_blank"><i class="fas fa-globe"></i></a>
+    </p>
+</footer>
+    
+</body>
+
+</html>
